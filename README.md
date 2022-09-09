@@ -15,8 +15,6 @@ Co-Clustering algorithm built in Scikit-Surprise for Recommender - Base problem 
 This is a collaborative filtering algorithm based on co-clustering. See:
 Thomas George and Srujana Merugu. A scalable collaborative filtering framework based on co-clustering. 2005.
 
-The recommender starts by trying to find matrices $U,S,V$ that best represents the user-item rating matrix $A$, where $A = USV^T$. SVD is a matrix factorisation technique, which reduces the number of features of a dataset by reducing the space dimension from N-dimension to K-dimension.
-
 The data preprocessing step includes indexing and standardization. Numerical values (ratings) are also scaled to [0,1] using min-max scaling.
 
 During the model development process, the algorithm was trained and evaluated on a variety of datasets such as jester, anime, book-crossing, modcloth, amazon electronics, and movies.
