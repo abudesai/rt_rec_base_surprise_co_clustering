@@ -1,0 +1,18 @@
+[
+  {
+    "name": "n_cltr_u",
+    "short_desc": "Number of user clusters. Default is 3",
+    "default": 3,
+    "type": "categorical",
+    "categorical_vals": [3, 5, 10, 20, 30],
+    "run_HPO": true
+  },
+  {
+    "name": "n_cltr_i",
+    "short_desc": "Number of item clusters. Default is 3",
+    "default": 3,
+    "type": "categorical",
+    "categorical_vals": [3, 5, 10, 20, 30],
+    "run_HPO": true
+  }
+]
