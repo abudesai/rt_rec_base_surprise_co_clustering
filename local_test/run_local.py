@@ -221,10 +221,10 @@ if __name__ == "__main__":
     
     num_hpt_trials = 5
     run_hpt_list = [False, True]
-    run_hpt_list = [True]
+    run_hpt_list = [False]
     
     datasets = ["amazon_electronics_small", "anime", "jester", "modcloth", "book_crossing_small", "movielens_1m", "movielens_10m"]
-    datasets = ["modcloth"]
+    # datasets = ["modcloth"]
     
     for run_hpt in run_hpt_list:
         all_results = []
